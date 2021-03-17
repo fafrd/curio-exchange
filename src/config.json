@@ -1,23 +1,8 @@
 {
     "general": {
-        "title": "Launch Kit"
+        "title": "Curio ERC20 Exchange (BETA)"
     },
     "tokens": [
-        {
-            "symbol": "zrx",
-            "name": "0x Protocol Token",
-            "primaryColor": "#333333",
-            "icon": "assets/icons/zrx.svg",
-            "addresses": {
-                "1": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
-                "3": "0xff67881f8d12f372d91baae9752eb3631ff0ed00",
-                "4": "0x8080c7e4b81ecf23aa6f877cfbfd9b0c228c6ffa",
-                "42": "0x2002d3812f58e35f0ea1ffbf80a75a38c32175fa",
-                "50": "0x871dd7c2b4b25e1aa18728e9d5f2af4c4e431f5c"
-            },
-            "decimals": 18,
-            "displayDecimals": 2
-        },
         {
             "symbol": "weth",
             "name": "Wrapped Ether",
@@ -34,114 +19,477 @@
             "displayDecimals": 2
         },
         {
-            "decimals": 18,
-            "symbol": "dai",
-            "name": "Dai",
-            "icon": "assets/icons/dai.svg",
-            "primaryColor": "#DEA349",
+            "symbol": "cro01",
+            "name": "Curio01",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
             "addresses": {
-                "1": "0x6b175474e89094c44da98b954eedeac495271d0f",
-                "3": "0xfc8862446cd3e4a2e7167e7d97df738407fead07",
-                "4": "0x6f2d6ff85efca691aad23d549771160a12f0a0fc",
-                "42": "0xc4375b7de8af5a38a93548eb8453a498222c4ff2",
-                "50": "0x34d402f14d58e001d8efbe6585051bf9706aa064"
-            }
+                "1": "0x6aa2044c7a0f9e2758edae97247b03a0d7e73d6c"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
         },
         {
-            "decimals": 18,
-            "symbol": "mkr",
-            "name": "Maker",
-            "primaryColor": "#68CCBB",
-            "icon": "assets/icons/mkr.svg",
+            "symbol": "cro02",
+            "name": "Curio02",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
             "addresses": {
-                "1": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
-                "3": "0x06732516acd125b6e83c127752ed5f027e1b276e",
-                "4": "0xb763e26cd6dd09d16f52dc3c60ebb77e46b03290",
-                "42": "0x7B6B10CAa9E8E9552bA72638eA5b47c25afea1f3",
-                "50": "0x34d402f14d58e001d8efbe6585051bf9706aa064"
-            }
+                "1": "0xE9A6A26598B05dB855483fF5eCc5f1d0C81140c8"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
         },
         {
-            "decimals": 18,
-            "symbol": "rep",
-            "name": "Augur",
-            "icon": "assets/icons/rep.svg",
-            "primaryColor": "#512D80",
+            "symbol": "cro03",
+            "name": "Curio03",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
             "addresses": {
-                "1": "0x1985365e9f78359a9B6AD760e32412f4a445E862",
-                "3": "0xb0b443fe0e8a04c4c85e8fda9c5c1ccc057d6653",
-                "4": "0x6a732d537daf79d75efaeae286d30fc578fa98d0",
-                "42": "0x8CB3971b8EB709C14616BD556Ff6683019E90d9C",
-                "50": "0x25b8fe1de9daf8ba351890744ff28cf7dfa8f5e3"
-            }
+                "1": "0x3f8131B6E62472CEea9cb8Aa67d87425248a3702"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
         },
         {
-            "decimals": 9,
-            "symbol": "dgx",
-            "name": "DigixDao",
-            "icon": "assets/icons/dgx.svg",
-            "primaryColor": "#E1AA3E",
+            "symbol": "cro04",
+            "name": "Curio04",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
             "addresses": {
-                "1": "0xE0B7927c4aF23765Cb51314A0E0521A9645F0E2A",
-                "3": "0xc4895a5aafa2708d6bc1294e20ec839aad156b1d",
-                "4": "0xc40a46ca4bc8e6057ed571e39cf400f3f935e4d5",
-                "42": "0xA4f468c9c692eb6B4b8b06270dAe7A2CfeedcDe9",
-                "50": "0xcdb594a32b1cc3479d8746279712c39d18a07fc0"
-            }
+                "1": "0x4F1694be039e447B729ab11653304232Ae143C69"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
         },
         {
-            "decimals": 18,
-            "symbol": "mln",
-            "name": "Melon",
-            "icon": "assets/icons/mln.svg",
-            "primaryColor": "#333333",
+            "symbol": "cro05",
+            "name": "Curio05",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
             "addresses": {
-                "1": "0xec67005c4E498Ec7f55E092bd1d35cbC47C91892",
-                "3": "0x823ebe83d39115536274a8617e00a1ff3544fd63",
-                "4": "0x521c0941300a18a4edc697368f43a6a870be1f3d",
-                "42": "0x17e394D1Df6cE29d042195Ea38411A98ff3Ead94",
-                "50": "0x1e2f9e10d02a6b8f8f69fcbf515e75039d2ea30d"
-            }
+                "1": "0x5a3D4A8575a688b53E8b270b5C1f26fd63065219"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
+        },
+        {
+            "symbol": "cro06",
+            "name": "Curio06",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "1": "0x1Ca6AC0Ce771094F0F8a383D46BF3acC9a5BF27f"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
+        },
+        {
+            "symbol": "cro07",
+            "name": "Curio07",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "1": "0x2647bd8777e0C66819D74aB3479372eA690912c3"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
+        },
+        {
+            "symbol": "cro08",
+            "name": "Curio08",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "1": "0x2FCE2713a561bB019BC5A110BE0A19d10581ee9e"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
+        },
+        {
+            "symbol": "cro09",
+            "name": "Curio09",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "1": "0xbf4Cc966F1e726087c5C55aac374E687000d4d45"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
+        },
+        {
+            "symbol": "cro10",
+            "name": "Curio10",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "1": "0x72b34d637C0d14acE58359Ef1bF472E4b4c57125"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
+        },
+        {
+            "symbol": "cro11",
+            "name": "Curio11",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "1": "0xb36c87F1f1539c5FC6f6e7b1C632e1840C9B66b4"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
+        },
+        {
+            "symbol": "cro12",
+            "name": "Curio12",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "1": "0xD15af10A258432e7227367499E785C3532b50271"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
+        },
+        {
+            "symbol": "cro13",
+            "name": "Curio13",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "1": "0x2d922712f5e99428c65b44f09Ea389373d185bB3"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
+        },
+        {
+            "symbol": "cro14",
+            "name": "Curio14",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "1": "0x0565ac44e5119a3224b897De761a46A92aA28ae8"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
+        },
+        {
+            "symbol": "cro15",
+            "name": "Curio15",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "1": "0xdb7F262237Ad8acca8922aA2c693a34D0d13e8fe"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
+        },
+        {
+            "symbol": "cro16",
+            "name": "Curio16",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "1": "0x1b63532CcB1FeE0595c7fe2Cb35cFD70ddF862Cd"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
+        },
+        {
+            "symbol": "cro17",
+            "name": "Curio17",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "1": "0xF59536290906F204C3c7918D40C1Cc5f99643d0B"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
+        },
+        {
+            "symbol": "cro17b",
+            "name": "Curio17b",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "1": "0xe0b5e6f32d657e0e18d4b3e801ebc76a5959e123"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
+        },
+        {
+            "symbol": "cro18",
+            "name": "Curio18",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "1": "0xA507D9d28bbca54cBCfFad4BB770C2EA0519F4F0"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
+        },
+        {
+            "symbol": "cro19",
+            "name": "Curio19",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "1": "0xf26BC97Aa8AFE176e275Cf3b08c363f09De371fA"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
+        },
+        {
+            "symbol": "cro20",
+            "name": "Curio20",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "1": "0xD0ec99E99cE22f2487283A087614AEe37F6B1283"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
+        },
+        {
+            "symbol": "cro21",
+            "name": "Curio21",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "1": "0xB7A5a84Ff90e8Ef91250fB56c50a7bB92a6306EE"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
+        },
+        {
+            "symbol": "cro22",
+            "name": "Curio22",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "1": "0x148fF761D16632da89F3D30eF3dFE34bc50CA765"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
+        },
+        {
+            "symbol": "cro23",
+            "name": "Curio23",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "1": "0xCDE7185B5C3Ed9eA68605a960F6653AA1a5b5C6C"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
+        },
+        {
+            "symbol": "cro24",
+            "name": "Curio24",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "1": "0xE67dad99c44547B54367E3e60fc251fC45a145C6"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
+        },
+        {
+            "symbol": "cro25",
+            "name": "Curio25",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "1": "0xC7f60C2b1DBDfd511685501EDEb05C4194D67018"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
+        },
+        {
+            "symbol": "cro26",
+            "name": "Curio26",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "1": "0x1cB5BF4Be53eb141B56f7E4Bb36345a353B5488c"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
+        },
+        {
+            "symbol": "cro27",
+            "name": "Curio27",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "1": "0xfb9f3fa2502d01d43167a0a6e80be03171df407e"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
+        },
+        {
+            "symbol": "cro28",
+            "name": "Curio28",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "1": "0x59D190e8A2583C67E62eEc8dA5EA7f050d8BF27e"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
+        },
+        {
+            "symbol": "cro29",
+            "name": "Curio29",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "1": "0xD3540bCD9c2819771F9D765Edc189cBD915FEAbd"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
+        },
+        {
+            "symbol": "cro30",
+            "name": "Curio30",
+            "primaryColor": "#ffa500",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "1": "0x7f5b230dc580d1e67df6ed30dee82684dd113d1f"
+            },
+            "decimals": 0,
+            "displayDecimals": 0
         }
     ],
     "pairs": [
         {
-            "base": "zrx",
+            "base": "cro01",
             "quote": "weth"
         },
         {
-            "base": "zrx",
-            "quote": "dai"
-        },
-        {
-            "base": "weth",
-            "quote": "dai"
-        },
-        {
-            "base": "mkr",
+            "base": "cro02",
             "quote": "weth"
         },
         {
-            "base": "mln",
+            "base": "cro03",
             "quote": "weth"
         },
         {
-            "base": "dgx",
+            "base": "cro04",
             "quote": "weth"
         },
         {
-            "base": "rep",
+            "base": "cro05",
+            "quote": "weth"
+        },
+        {
+            "base": "cro06",
+            "quote": "weth"
+        },
+        {
+            "base": "cro07",
+            "quote": "weth"
+        },
+        {
+            "base": "cro08",
+            "quote": "weth"
+        },
+        {
+            "base": "cro09",
+            "quote": "weth"
+        },
+        {
+            "base": "cro10",
+            "quote": "weth"
+        },
+        {
+            "base": "cro11",
+            "quote": "weth"
+        },
+        {
+            "base": "cro12",
+            "quote": "weth"
+        },
+        {
+            "base": "cro13",
+            "quote": "weth"
+        },
+        {
+            "base": "cro14",
+            "quote": "weth"
+        },
+        {
+            "base": "cro15",
+            "quote": "weth"
+        },
+        {
+            "base": "cro16",
+            "quote": "weth"
+        },
+        {
+            "base": "cro17",
+            "quote": "weth"
+        },
+        {
+            "base": "cro17b",
+            "quote": "weth"
+        },
+        {
+            "base": "cro18",
+            "quote": "weth"
+        },
+        {
+            "base": "cro19",
+            "quote": "weth"
+        },
+        {
+            "base": "cro20",
+            "quote": "weth"
+        },
+        {
+            "base": "cro21",
+            "quote": "weth"
+        },
+        {
+            "base": "cro22",
+            "quote": "weth"
+        },
+        {
+            "base": "cro23",
+            "quote": "weth"
+        },
+        {
+            "base": "cro24",
+            "quote": "weth"
+        },
+        {
+            "base": "cro25",
+            "quote": "weth"
+        },
+        {
+            "base": "cro26",
+            "quote": "weth"
+        },
+        {
+            "base": "cro27",
+            "quote": "weth"
+        },
+        {
+            "base": "cro28",
+            "quote": "weth"
+        },
+        {
+            "base": "cro29",
+            "quote": "weth"
+        },
+        {
+            "base": "cro30",
             "quote": "weth"
         }
     ],
     "marketFilters": [
         {
-            "text": "ETH",
+            "text": "wETH",
             "value": "weth"
-        },
-        {
-            "text": "DAI",
-            "value": "dai"
         }
     ]
 }

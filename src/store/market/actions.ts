@@ -117,6 +117,7 @@ export const updateMarketPriceEther: ThunkCreator = () => {
         dispatch(fetchMarketPriceEtherStart());
 
         try {
+            throw 'Eth price not implemented'
             const marketPriceEtherData = await getMarketPriceEther();
             dispatch(fetchMarketPriceEtherUpdate(marketPriceEtherData));
         } catch (err) {
